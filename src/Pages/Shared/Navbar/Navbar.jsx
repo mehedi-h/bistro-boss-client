@@ -4,12 +4,12 @@ const Navbar = () => {
 
   const navLinks = <>
     <li>
-      <Link to="/">
+      <Link to="/" className="uppercase">
         Home
       </Link>
     </li>
     <li>
-      <Link to="/menu">
+      <Link to="/menu" className="uppercase">
         Our Menu
       </Link>
     </li>
