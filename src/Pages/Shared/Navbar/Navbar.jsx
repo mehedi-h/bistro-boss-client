@@ -14,7 +14,9 @@ const Navbar = () => {
       </Link>
     </li>
     <li>
-      <a>Item 3</a>
+    <Link to="/order" className="uppercase">
+        Order
+      </Link>
     </li>
   </>
   return (
