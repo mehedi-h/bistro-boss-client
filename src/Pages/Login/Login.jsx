@@ -95,7 +95,7 @@ const Login = () => {
 
 {/* ------------------------ submit button section ------------------------- */}
                     <div className="form-control mt-6">
-                        <input disabled={disabled} className="btn btn-xs btn-outline" type="submit" value="Login"/>
+                        <input disabled={disabled} className="bg-gray-600 hover:bg-gray-700 text-white md:py-1.5 rounded-sm" type="submit" value="Login"/>
                     </div>
                 </form>
                 </div>

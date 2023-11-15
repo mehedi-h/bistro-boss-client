@@ -17,6 +17,7 @@ const Menu = () => {
     const salad = menu.filter(item => item.category === 'salad');
     const soup = menu.filter(item => item.category === 'soup');
     const pizza = menu.filter(item => item.category === 'pizza');
+    const drinks = menu.filter(item => item.category === 'drinks');
     const offered = menu.filter(item => item.category === 'offered');
     console.log(offered);
 
@@ -45,7 +46,7 @@ const Menu = () => {
             <MenuCategory 
                 img={dessertImg}
                 items={desserts}
-                title="Dessarts"
+                title="dessert"
                 brief="Our Deserts Items"
                 >
             </MenuCategory>
@@ -54,7 +55,7 @@ const Menu = () => {
             <MenuCategory 
                 img={pizzaImg}
                 items={pizza}
-                title="Pizza"
+                title="pizza"
                 brief="Our Pizza Items"
                 >
             </MenuCategory>
@@ -63,7 +64,7 @@ const Menu = () => {
             <MenuCategory 
                 img={saladImg}
                 items={salad}
-                title="Salads"
+                title="salad"
                 brief="Our Salads Items"
                 >
             </MenuCategory>
@@ -72,8 +73,17 @@ const Menu = () => {
             <MenuCategory 
                 img={soupImg}
                 items={soup}
-                title="Soup"
+                title="soup"
                 brief="Our Soups Items"
+                >
+            </MenuCategory>
+
+            {/* Soups items */}
+            <MenuCategory 
+                img={soupImg}
+                items={drinks}
+                title="drinks"
+                brief="Our Drinks Items"
                 >
             </MenuCategory>
 
